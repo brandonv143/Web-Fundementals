@@ -1,0 +1,17 @@
+h1 {
+    background-color: black;
+    color: lightblue;
+    font-style: oblique;
+}
+
+h2 {
+    background-color: lightseagreen;
+    text-align: center;
+    font-style: italic; 
+}
+
+h3 {
+    background-color: aquamarine;
+    text-align: right;
+    text-decoration: underline;
+}
