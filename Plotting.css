@@ -1,6 +1,6 @@
 .container{
     width: 1000px;
-    height: 700px;
+    height: 650px;
     background-color: silver;
     margin: 30px;
     padding: 5px;
@@ -20,22 +20,27 @@
     margin-left: 20px;
 }
 .main {
-    height: 450px;
+    height: 420px;
     width: 700px;
     margin-top: -350px;
     margin-left: 240px;
-    padding: 20px;
+    padding: 10px;
     background-color: red;
 }
 .sub-content {
-    height: 200px;
+    height: 190px;
     width: 210px;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 40px;
     background-color: yellow;
     float: left;
+    display: inline-block;
 }
 #advertisement {
     height: 150px;
-    width: 660px;
-    margin-top: 270px;
+    width: 684px;
+    margin-top: 230px;
+    margin-left: 5px;
     background-color: purple;
 }
