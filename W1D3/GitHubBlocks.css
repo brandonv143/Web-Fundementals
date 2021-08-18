@@ -1,0 +1,31 @@
+.catblocks {
+    width: 1000px;
+    height: 1000px;
+    margin: 10px;
+    padding: 5px;
+    border: 10px;
+    border-color: blue;
+    background-color: lightgrey;
+    display:inline-block
+
+}
+.catblocks-1{
+    background-color: lightskyblue;
+    padding: 10px;
+    width: 900px;
+    height: 200px;
+    margin: 0px;
+}
+
+.catblock-2 {
+    background-color: lightcoral;
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+}
+
+.catblock-3 {
+    background-color: white;
+    width: 900px;
+    height: 200px;
+}
