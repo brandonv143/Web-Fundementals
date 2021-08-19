@@ -1,23 +1,36 @@
-container{
-    width: 900px;
+.container{
+    width: 800px;
+    height: 720px;
     margin: 0 auto;
     background-color: white;
-
-}
-.catblock-1{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: lightgreen;
-
-}
-
-.catblock-2{
-    background-color: lightcoral;
-}
-
-.catblock{
-    background-color: magenta;
 }
 img.octocat {
     height: 200px;
+}
+h1{
+    text-align: center;
+    margin-bottom: -10px;
+}
+.dancecat1{
+    background-color: aqua;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.dancecat2{
+    background-color: black;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.dancecat3{
+    background-color: lightgreen;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    padding-bottom: -20px;
+}
+p{
+    text-align: center;
+    color: black;
 }
