@@ -1,0 +1,81 @@
+body{
+    width: 900px;
+    height: 1200px;
+}
+.container{
+    width: 1300px;
+    height: 1400px;
+    background-color: grey;
+}
+.nav{
+    width: 1300px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 150px;
+    font-size: 25px;
+}
+.nav-title{
+    color: white;
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.btn{
+    height: 40px;
+    width: 140px;
+    background-color: #14a3b8;
+    font-size: 25px;
+    color: white;
+    margin-left: 200px;
+}
+
+.user-circle1{
+    height: 100px;
+}
+.user-circle2{
+    height: 20px;
+}
+button{
+    height: 40px;
+    width: 40px;
+}
+
+.no{
+    height: 30px;
+    width: 30px;
+}
+.yes{
+    height: 30px;
+    width: 30px;
+}
+.aboutme{
+    width: 650px;
+    height: 500px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.header1{
+    width: 650px;
+    height: 150px;
+    background-color: #18a2b8;
+}
+.information{
+    width: 400px;
+    height: 200px;
+}
