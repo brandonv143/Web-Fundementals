@@ -76,6 +76,15 @@
     margin-left: 50px;
     margin-top: 50px;
 }
+.jane{
+    font-size: 40px;
+}
+.i{
+    font-size: 22px;
+}
+.link-gear{
+    margin: 50px;
+}
 
 .map-marker, .gear{
     height: 20px;
