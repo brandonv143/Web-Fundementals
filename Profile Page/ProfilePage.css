@@ -84,6 +84,7 @@
 }
 .link-gear{
     margin: 50px;
+    font-size: 20px;
 }
 
 .map-marker, .gear{
@@ -119,7 +120,7 @@ button{
     border: 5px solid grey;
 
 }
-.header-{
+.header-3{
     width: 650px;
     height: 40px;
     background-color: darkgray;
