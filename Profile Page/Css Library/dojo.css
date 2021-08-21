@@ -1,0 +1,70 @@
+.btn{
+    background-color: white;
+    border-radius: 20px 20px 20px;
+    border-color: lightseagreen;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: palegreen;
+}
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: palegreen;
+}
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: palegreen;
+}
+
+
+.nav{
+    display: flex;
+    background-color: rgb(61, 58, 58);
+    height: 50px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 50%;
+}
+.dancecat1{
+    background-color: aqua;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.dancecat2{
+    background-color: black;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.dancecat3{
+    background-color: lightgreen;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    padding-bottom: -20px;
+}
