@@ -9,7 +9,6 @@
     display: flex;
 }
 
-
 /*Navigation*/
 .nav{
     width: 1500px;
@@ -45,7 +44,8 @@
     background-color: #14a3b8;
     font-size: 25px;
     color: white;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-right: 130px;
 }
 
 /* About Me*/
@@ -53,7 +53,10 @@
 .col-1{
     width: 650px;
     height: 500px;
-    background-color: silver;
+    background-color: white;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    border: 5px solid grey;
 }
 .header-1{
     width: 657px;
@@ -80,9 +83,10 @@
 /* Connection Requests*/
 .col-2{
     height: 200px;
-    width: 250px;
-    background-color: silver;
-
+    width: 350px;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 5px solid grey;
 }
 .user-circle2{
     height: 20px;
@@ -101,7 +105,9 @@ button{
 .col-3{
     width: 650px;
     height: 250px;
-    background-color: silver;
+    background-color: white;
+    margin-left: 170px;
+    border: 5px solid grey;
 
 }
 .header-{
@@ -114,6 +120,25 @@ button{
 /* Your Connections*/
 .col-4{
     height: 250px;
-    width: 250px;
-    background-color: silver;
+    width: 350px;
+    background-color: white;
+    margin: 0px;
+    border: 5px solid grey;
+}
+
+.row {
+    display: flex;
+}
+.big-col1{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+.big-col2{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
 }
