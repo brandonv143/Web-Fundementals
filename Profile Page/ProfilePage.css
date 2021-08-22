@@ -58,10 +58,10 @@
     margin-bottom: 20px;
     border: 5px solid grey;
 }
-.header-1{
-    width: 657px;
+.header{
+    width: 653px;
     height: 140px;
-    margin: -3px;
+    margin: -2px;
     background-color: #18a2b8;
 }
 
@@ -79,7 +79,7 @@
 .jane{
     font-size: 40px;
 }
-.i{
+.i-1{
     font-size: 22px;
 }
 .link-gear{
@@ -93,23 +93,32 @@
 /* Connection Requests*/
 .col-2{
     height: 200px;
-    width: 350px;
+    width: 380px;
     background-color: white;
     margin-bottom: 50px;
     border: 5px solid grey;
+    justify-content: center;
 }
-.user-circle2{
-    height: 20px;
-}
-button{
-    height: 40px;
-    width: 40px;
-}
-
-.no, .yes{
+.circle-1{
     height: 30px;
     width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    text-align: center;
+    margin: 0px;
 }
+
+.circle-3{
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+
+button{
+    height: 40px;
+    width: 30px;
+}
+
 
 /* Education*/
 .col-3{
@@ -120,22 +129,36 @@ button{
     border: 5px solid grey;
 
 }
-.header-3{
-    width: 650px;
-    height: 40px;
-    background-color: darkgray;
+.header-1, .header-2, .header-3{
+    height: 50px;
+    font-size: 23px;
+    padding: 5px;
+    background-color: darkgrey;
+    color: white;
+}
+
+
+.i-2{
+font-size: 25px;
+}
+.i-3{
+font-size: 20px;
+color: grey;
 }
 
 
 /* Your Connections*/
 .col-4{
-    height: 250px;
-    width: 350px;
+    height: 350px;
+    width: 380px;
     background-color: white;
     margin: 0px;
     border: 5px solid grey;
 }
-
+.circle-2{
+    width: 10px;
+    height: 10px;
+}
 .row {
     display: flex;
 }
@@ -151,4 +174,27 @@ button{
     padding: 20px;
     margin: 10px;
     background-color: white;
+}
+
+.c-req1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-body1, .c-body2{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.user-circle2{
+    height: 35px;
+}
+
+.viewmore{
+    border-top: solid grey;
+    padding: 25px;
+    margin-top: 35px;
 }
