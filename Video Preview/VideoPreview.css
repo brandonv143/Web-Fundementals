@@ -4,36 +4,82 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body{
+    margin: 0px;
+    justify-content: center;
+}
+.container{
+    width: 1500px;
+    height: 1500px;
+    background-color: lightpink;
+}
+#myVideo{
+    width: 400px;
+    height: 300px;
+}
+.column-1, .column-2, .column-3, .column-4, .column5{
+    display: flex;
+}
 .navigation{
-    height: 125px;
-    background-color: lightgrey;
+    height: 75px;
+    background-color: lightgray;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+    border-top: 10px solid palevioletred;
 }
 .nav-title{
-    font-size: 45px;
+    font-size: 25px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 200px;
+    color: palevioletred;
+    box-shadow: 10px 10px black;
+    background-color: darkgray;
 }
 .search-bar{
     width: 400px;
-    height: 35px;
+    height: 25px;
     background-color: white;
     color: lightgray;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     display: flex;
     align-items: center;
-    border: 3px solid black;
-    
+    box-shadow: 10px 10px black;
 }
 .button-1{
     width: 100px;
-    height: 35px;
-    background-color: royalblue;
-    color: white;
-    box-shadow: 5px 5px black;
-    margin-right: 40px;
+    height: 40px;
+    background-color: white;
+    color: palevioletred;
+    box-shadow: 10px 10px black;
+    margin-right: 250px;
     font-size: 25px;
+    font-weight: bold;
+}
+.button-2{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    color: palevioletred;
+    box-shadow: 10px 10px black;
+    margin-right: 250px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.userpic{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userlink{
+    color: palevioletred;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightgrey;
+    box-shadow: 10px 10px black;
+    padding: 10px;
 }

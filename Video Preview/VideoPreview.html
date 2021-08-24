@@ -11,7 +11,41 @@
     <div class="navigation">
         <div class="nav-title">VideoLab</div>
         <div class="search-bar">Search</div>
-        <button onclick="turnOff(this)" class="button-1">Login</button>
+        <button class="button-1">Login</button>
+    </div>
+    <div class="containter">
+        <div class="column-1">
+            <video id="myVideo" onmouseover="play(this)" onmouseout="pause(this)" controls>
+                <source src="pexels-cottonbro-6543963.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="column-2">
+            <div class="vid-info">
+                <p class="vid-title">Example Video Title</p>
+                <p class="views">1.3K views | Auguest 24, 2021</p>
+                <img src="brandon.png" class="userpic">
+                <a href="#" class="userlink">Brandon Vilay <3</a>
+            </div>
+            <div class="sub-box">
+                <button class="button-2">Subscribe</button>
+            </div>
+        </div>
+        <div class="column-3">
+            <div class="upnext">Up Next
+            </div>
+        </div>
+        <div class="column-4">
+            <div class="minivid-1"></div>
+            <div class="minivid-2"></div>
+            <div class="minivid-3"></div>
+            <div class="minivid-4"></div>
+        </div>
+        <div class="column-5">
+            <div class="miniinfo-1"></div>
+            <div class="miniinfo-2"></div>
+            <div class="miniinfo-3"></div>
+            <div class="miniinfo-4"></div>
+        </div>
     </div>
     <script src="VideoPreview.js"></script>
 </body>
