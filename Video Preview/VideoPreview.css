@@ -1,0 +1,39 @@
+*{
+    margin: 0 autox;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation{
+    height: 125px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.search-bar{
+    width: 400px;
+    height: 35px;
+    background-color: white;
+    color: lightgray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    
+}
+.button-1{
+    width: 100px;
+    height: 35px;
+    background-color: royalblue;
+    color: white;
+    box-shadow: 5px 5px black;
+    margin-right: 40px;
+    font-size: 25px;
+}
