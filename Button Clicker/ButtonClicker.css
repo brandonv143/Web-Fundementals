@@ -1,0 +1,21 @@
+*{
+    margin: 0x;
+    padding: 0px;
+}
+/* Navigation */
+.navigation{
+    width: 1200px;
+    height: 100px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 50px;
+}
+.search-bar{
+    width: 400px;
+    height: 30px;
+    background-color: white;
+}
