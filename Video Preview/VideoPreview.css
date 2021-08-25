@@ -6,19 +6,86 @@
 
 body{
     margin: 0px;
-    justify-content: center;
 }
+
 .container{
-    width: 1500px;
-    height: 1500px;
-    background-color: lightpink;
+    width: 900px;
+    height: 700px;
+    margin-left: 500px;
+    display: flex;
 }
-#myVideo{
+
+.bigcolumn-1{
+    width: 400px;
+    height: 500px;
+    margin-right: 30px;
+}
+.bigcolumn-2{
+    width: 120px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+
+}
+.bigcolumn-3{
+    width: 600px;
+    height: 600px;
+    margin: 0px;
+    display: flex;
+}
+
+#myVideo1{
     width: 400px;
     height: 300px;
 }
-.column-1, .column-2, .column-3, .column-4, .column5{
+#myVideo2, #myVideo3, #myVideo4, #myVideo5{
+    width: 100px;
+    height: 100px;
+}
+
+.column-1{
+    width: 400px;
+    height: 300px;
+}
+
+.column-2{
+    width: 400px;
+    height: 150px;
     display: flex;
+}
+
+
+.vid-info{
+    width: 350;
+    height: 100px;
+}
+.sub-box{
+    width: 100px;
+    height: 100px;
+}
+.column-3{
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    display: flex;
+    margin-left: 0px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+}
+
+.column-4, .column-5{
+    width: 100px;
+    height: 500px;
+    color: white;
+}
+.column-5{
+    margin-top: 50px;
+}
+.minivid, .miniinfo{
+    width: 100px;
+    height: 100px;
+    color: palevioletred;
+    font-weight: bold;
 }
 .navigation{
     height: 75px;
@@ -32,17 +99,17 @@ body{
 .nav-title{
     font-size: 25px;
     font-weight: bold;
-    margin-left: 200px;
+    margin-left: 450px;
     color: palevioletred;
     box-shadow: 10px 10px black;
     background-color: darkgray;
 }
 .search-bar{
-    width: 400px;
+    width: 300px;
     height: 25px;
     background-color: white;
     color: lightgray;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -50,12 +117,12 @@ body{
 }
 .button-1{
     width: 100px;
-    height: 40px;
+    height: 30px;
     background-color: white;
     color: palevioletred;
     box-shadow: 10px 10px black;
-    margin-right: 250px;
-    font-size: 25px;
+    margin-right: 500px;
+    font-size: 20px;
     font-weight: bold;
 }
 .button-2{
@@ -82,4 +149,5 @@ body{
     background-color: lightgrey;
     box-shadow: 10px 10px black;
     padding: 10px;
+    margin-bottom: 20px;
 }
